@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 100%;
+}
+
+header > img{
+    width: 100%;
+    height: auto;
+}
+main{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+}
+.conteudo-principal>figure>figcaption>h1{
+    font-weight: bold;
+}
+.conteudo-principal>figure>figcaption>p{
+    font-weight: 400;
+    color: #74787a;
+}
+.conteudo-principal>figure>img{
+    width: 750px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+#linha-horizontal-1{
+    background-color: black;
+    height: 4px;
+    width: 380px;
+    margin-top: 5px;
+    background-image: linear-gradient( to right, #e5245a, #b44b7d, #6e5ba2);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 33px;
+}
+.descricao-noticia-01, .descricao-noticia-02{
+    width: 320px;
+}
+
+.descricao-noticia-01 > h2, .descricao-noticia-02 > h2{
+   font-weight: bold;
+
+}
+.descricao-noticia-01 > p, .descricao-noticia-02 >p{
+    color: #74787a;
+    margin-top: 20px;
+}
+
+#linha-horizontal-2{
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    margin-top: 5px;
+    background-image: linear-gradient( to right, #76c6cf, #675fa6);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+#linha-horizontal-3{
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    margin-top: 5px;
+    background-image: linear-gradient( to right, #75c7ce, #3bb38b);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+.direitos-reservados{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #646869;
+}
+
+a{
+    text-decoration: none;
+    color: #646869;
+    text-decoration: underline;
+}
+figcaption > p{
+    padding-top: 10px;
+}
+
+footer > img{
+    width: 100%;
+    height: auto;
+}
